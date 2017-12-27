@@ -1,0 +1,20 @@
+* Pasos del algoritmo
+
+1. Realizar proyecciones cilíndricas
+2. Encontrar los puntos SIFT y las homografías para hacer el mosaico
+   (tal como se hizo en la práctica) sobre las imágenes proyectadas.
+3. Corregir el color usando el algoritmo de Burt-Adelson
+
+** Proyección cilíndrica
+No sé muy bien por qué hay que hacer esto. Quizá cuando se está
+tratando de hacer un mosaico de una imagen que abarca un ángulo
+muy grande se notan muchos las distorsiones a menos que se proyecten
+las fotos sobre una superficie cilíndrica.
+
+En principio está hecha. Habría que ver cómo hacer la proyección
+sobre la esfera pero debe ser fácil.
+
+** Encontrar puntos SIFT
+
+** Corrección del color
+Esta es la parte gorda del trabajo imagino.
